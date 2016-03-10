@@ -1,0 +1,90 @@
+---
+---
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+      <h1>Fatigue Calculator</h1>
+      <p>
+        Hi! Math is hard. Playing the fatigue game in Hearthstone?
+        Let me math for you.
+      </p>
+
+      <form class="form-horizontal">
+        <div class="form-group header-row">
+          <div class="col-sm-offset-2 col-sm-2">Me</div>
+          <div class="col-sm-2">The Enemy!</div>
+        </div>
+
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Health</label>
+          <div class="col-sm-2">
+            <input type="number" class="form-control" name="my-health" placeholder="0">
+          </div>
+          <div class="col-sm-2">
+            <input type="number" class="form-control" name="enemy-health" placeholder="0">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Armor</label>
+          <div class="col-sm-2">
+            <input type="numeric" class="form-control" name="my-armor" placeholder="0">
+          </div>
+          <div class="col-sm-2">
+            <input type="numeric" class="form-control" name="enemy-armor" placeholder="0">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Health Gain/Turn</label>
+          <div class="col-sm-2">
+            <input type="numeric" class="form-control" name="my-health-gain" placeholder="0">
+          </div>
+          <div class="col-sm-2">
+            <input type="numeric" class="form-control" name="enemy-health-gain" placeholder="0">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Armor Gain/Turn</label>
+          <div class="col-sm-2">
+            <input type="numeric" class="form-control" name="my-armor-gain" placeholder="0">
+          </div>
+          <div class="col-sm-2">
+            <input type="numeric" class="form-control" name="enemy-armor-gain" placeholder="0">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Damage/Turn</label>
+          <div class="col-sm-2">
+            <input type="numeric" class="form-control" name="my-damage" placeholder="0">
+          </div>
+          <div class="col-sm-2">
+            <input type="numeric" class="form-control" name="enemy-damage" placeholder="0">
+          </div>
+        </div>
+      </form>
+
+
+      <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+      <script src="app.js"></script>
+
+
+
+    </body>
+</html>
